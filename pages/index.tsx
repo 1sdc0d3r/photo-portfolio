@@ -14,35 +14,35 @@ const Home: NextPage = () => {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <main className="w-full h-full">
+      <main className="">
         <Image
           src="/images/jellyfish/grey.jpeg"
           alt="Jellyfish with grey background"
-          width={500}
-          height={500}
-          // className="m-0 p-0"
+          width={350}
+          height={600}
+          className=""
         />
-        <Image
+        {/* <Image
           src="/images/jellyfish/blue.jpeg"
           alt="Jellyfish with blue background"
-          width={500}
-          height={500}
-        />
+          width={300}
+          height={300}
+        /> */}
         <Image
           src="/images/dogs/darby-deer.JPG"
           alt=""
-          width={500}
-          height={500}
+          width={300}
+          height={300}
         />
-        <Image
+        {/* <Image
           src="/images/rocks/glass_beach.jpeg"
           alt=""
-          width={500}
-          height={500}
-        />
-        <Image src="/images/sun/cemetary.JPG" alt="" width={500} height={500} />
-        <Image src="/images/sun/horses.jpeg" alt="" width={500} height={500} />
-        <Image src="/images/sun/pier.JPG" alt="" width={500} height={500} />
+          width={300}
+          height={300}
+        /> */}
+        <Image src="/images/sun/cemetary.JPG" alt="" width={300} height={300} />
+        <Image src="/images/sun/horses.jpeg" alt="" width={300} height={300} />
+        <Image src="/images/sun/pier.JPG" alt="" width={200} height={600} />
       </main>
 
       <footer></footer>
